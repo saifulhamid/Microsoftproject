@@ -1,0 +1,197 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    padding-bottom: 10px;
+}
+.container img{
+    height: 25px;
+    margin-left: 70px;
+    margin-top: 25px;
+}
+.container1 img{
+    object-fit: fill;
+    float: left;
+    width: 100%;
+    height: 525px;
+}
+.container a{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(54, 54, 54);
+    text-decoration: none;
+    margin-left: 18px;
+    margin-top: -5px;
+    font-size: small;
+    display: inline;
+
+}
+.container a:hover{
+    border-bottom: 2px solid black;    
+}
+.container1 figure{
+
+    margin: 0;
+    
+}
+.rightsection{
+    float: right;
+    margin-top: -23px;
+}
+
+.container1 figcaption{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 65%;
+    top: 40%;
+}
+.container1 button{
+    padding: 10px;
+    background-color: rgb(52, 52, 247);
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.container1 button:hover{
+    background-color: rgb(27, 27, 247);
+}
+.container1 a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.container2{
+margin-left: 20%;
+
+}
+.container2 td img{
+    margin-left: 80px;
+
+}
+.container2 a{
+    text-decoration: none;
+    color: rgb(52, 52, 247);
+}
+.container2 a:hover{
+    text-decoration: underline;
+}
+
+.container3 table{
+    margin-left: 5px;
+
+}
+.container3 img{
+    padding: 5px;
+}
+.container3 a{
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+.container3 a:hover{
+    text-decoration: underline;
+}
+.container3 p{
+    font-size: medium;
+}
+.container4 img{
+    width: 100%;
+}
+.container4 figcaption{
+    position: absolute;
+    top: 235%;
+    left: 12%;
+}
+.container4 button{
+    padding: 8px;
+    color: white;
+    background-color: rgb(52, 52, 247);
+    border: 1px solid transparent;
+    border-radius:4px ;
+    cursor: pointer;
+
+}
+.container4 button:hover{
+    background-color: rgb(27, 27, 247);
+}
+span{
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(255, 183, 0);
+    color: black;
+    font-weight: 550;
+}
+.container5 table{
+    margin-left: 10px;
+}
+.container5 img{
+    padding: 5px;
+}
+.container5 a{
+    text-decoration: none;
+    font-weight: 550;
+}
+.container5 a:hover{
+    text-decoration: underline;
+}
+.h2{
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+.container6{
+    margin: 30px;
+}
+.container6 button{
+    border: none;
+    background-color: white;
+
+}
+.container6 img{
+    height: 30px;
+    width: 30px;
+    margin-bottom: -14px;
+}
+footer{
+    background-color: rgb(240, 240, 240);
+    height: 400px;
+}
+footer table{
+    margin-left: 80px;
+    font-size: x-small;
+    font-weight: lighter;
+}
+footer h4{
+    font-size: medium;
+    font-weight: lighter;
+    color: rgb(55, 55, 55);
+}
+footer td{
+    padding-top: 5px;
+    padding-right: 80px;
+
+}
+footer a{
+    color: grey;
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+.final{
+    margin-left: 80px;
+}
+.final a{
+    padding-left: 8px;
+    font-size:12px;
+}
+.final img{
+    margin-bottom: -6px;
+}
+.floatright{
+    float: right;
+}
+

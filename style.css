@@ -1,0 +1,94 @@
+body
+{
+    padding: 0px;
+    margin: 0px;
+
+    background-color: rgb(255, 255, 255);
+}
+
+.center
+{
+    float: right;
+    background-color: rgb(255, 255, 255);
+    margin-top: -35px;
+    text-decoration: none;
+    
+}
+.noborder
+{
+    border: none;
+    background-color: white;
+    margin: 11px;
+    color: darkslategrey;
+    font-size: small;
+}
+.noborder:hover
+{
+    font-weight: bold;
+}
+.delux
+{
+    text-decoration: none;
+    margin: 10px;
+    font-size: smaller;
+    color: rgb(88, 88, 88);
+    font-weight: lighter;
+}
+.delux:hover
+{
+    text-decoration: underline;
+}
+#searchbar
+{
+    /* border: none; */
+    padding: 9px;
+    padding-right: 90px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.imgwid img
+{
+    
+    width: 100%;
+    margin-top: 85px;
+}
+
+.slider-frame{
+
+}
+.slider-image{
+
+}
+
+@-webkit-keyframes Slide_animation{
+    0% {left:0px;}
+    10% {left:0px;}
+    20% {left:1200px;}
+    30% {left:1200px;}
+    40% {left:2400px;}
+    50% {left:2400px;}
+    60% {left:1200px;}
+    70% {left:1200px;}
+    80% {left:0px;}
+    90% {left:0px;}
+    100% {left:0px;}
+}
+.slider-image{
+    width: 3600px;
+    height: 800px;
+    margin: 0 0 0 -2400px 0 0 0 ;
+    position: ;
+    -webkit-animation-name: Slide_animation;
+    -webkit-animation-duration: 33s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state:running ;
+}
+.image-container{
+    height: 800px;
+    width: 1200px;
+    position: relative;
+    float: right;
+
+}
